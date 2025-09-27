@@ -1,0 +1,432 @@
+@font-face {
+    font-family: "Quicksand";
+    src: url("Fonts/Quicksand-Medium.ttf");
+}
+
+@font-face {
+    font-family: "Masque";
+    src: url("Fonts/MASQUE__.ttf");
+}
+
+* {
+    font-family: "Quicksand";
+    font-size: 15px;
+}
+
+
+.main-body {
+    background-image: url("resources/abstract_geometric_banner_design_2507.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.title1 {
+    font-family: "Masque";
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.logo {
+    background-image: url("resources/dream\ sports\ \(3\).svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 60px;
+}
+
+.title2 {
+    font-family: "Quicksand";
+    font-size: 20px;
+    /* color: white; */
+}
+
+.background {
+    background-image: url("resources/ds\ background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.title3 {
+    font-family: "Quicksand";
+    font-size: 25px;
+    font-weight: bold;
+    /* color: rgb(200, 255, 0); */
+}
+
+
+.cName {
+    background-image: url("resources/DREAM\ SPORTS.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 150px;
+    background-color: red;
+}
+
+.cart-icon {
+    background-image: url("resources/cartico.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 30px;
+}
+
+.poster-img-1 {
+    height: 500px;
+    background-repeat: no-repeat;
+}
+
+.poster-caption {
+    margin-bottom: 150px;
+}
+
+.poster-title {
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    /* margin-bottom: 150px; */
+}
+
+.poster-text {
+    font-size: 20px;
+    color: white;
+    margin-bottom: 120px;
+}
+
+.poster-caption-1 {
+    margin-right: 500px;
+
+}
+
+.poster-text-1 {
+    color: rgb(255, 255, 255);
+    font-size: 34px;
+    font-weight: bold;
+    font-family: "Masque";
+
+}
+
+.poster-text-2 {
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-weight: bold;
+    /* margin-bottom: 50px; */
+
+}
+
+.poster-caption-2 {
+    margin-left: 130px;
+    margin-top: 180px;
+
+}
+
+/* .slideBackgroundimg{
+    width: 100%;
+    height: 300px;
+    background-color: aqua;
+
+} */
+
+
+.animation:hover {
+    /* transform: rotateY(360deg); */
+    transition-duration: 1s;
+    text-shadow: 10px;
+    scale: 1.1;
+}
+
+.animation2:hover {
+    /* transform: rotateY(360deg); */
+    transition-duration: 1s;
+    scale: 1.03;
+}
+
+.animation3:hover {
+    transition-duration: 1s;
+    scale: 1.03;
+}
+
+.button {
+    width: 120px;
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+
+}
+
+.animation4:hover {
+    transition-duration: 1s;
+    scale: 1.02;
+    background-color: whitesmoke;
+}
+
+
+@keyframes ani {
+    from {
+        scale: 1.2;
+    }
+
+    to {
+        scale: 1;
+    }
+}
+
+/* .slide:hover{
+    left: 10px;
+} */
+
+
+
+
+
+
+/* Container needed to position the overlay. Adjust the width as needed */
+.con {
+    position: relative;
+    width: 100%;
+}
+
+/* The overlay effect - lays on top of the container and over the image */
+.overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    /* Black see-through */
+    color: #f1f1f1;
+    width: 100%;
+    transition: .5s ease;
+    opacity: 0;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+/* When you mouse over the container, fade in the overlay title */
+.con:hover .overlay {
+    opacity: 1;
+}
+
+.line {
+    width: 120%;
+    outline: none;
+    border: none;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(0, 250, 250);
+    border-bottom-width: 3px;
+    background-color: transparent;
+    color: white;
+}
+
+.key {
+    background-image: url("resources/key.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100px;
+}
+
+.loder {
+    position: fixed;
+    background-color: white;
+    opacity: 100;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    padding-top: 300px;
+}
+
+.hidden {
+    display: none;
+}
+
+.dropdown-content {
+    display: none;
+    background-color: #f1f1f1;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    right: 0;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.pm {
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 65px;
+}
+
+.pm1 {
+    background-image: url("resources/payment methods/visa_img.png");
+}
+
+.pm2 {
+    background-image: url("resources/payment methods/mastercard_img.png");
+}
+
+.pm3 {
+    background-image: url("resources/payment methods/american_express_img.png");
+}
+
+.pm4 {
+    background-image: url("resources/payment methods/paypal_img.png");
+}
+
+.main-img {
+    background-image: url("resources/empty.svg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 440px;
+}
+
+.product-qty {
+    width: 105px;
+    height: 45px;
+    padding: 5px;
+}
+
+.qty-buttons {
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 30px;
+    /* border: solid 1px rgb(72,71,71); */
+}
+
+.qty-inc,
+.qty-dec {
+    width: 100%;
+    height: 50%;
+    justify-content: flex-end;
+    cursor: pointer;
+}
+
+/* .qty-inc{
+    border-top-right-radius: 5px;
+}
+
+.qty-dec{
+    border-bottom-right-radius: 5px;
+} */
+
+.emptyCart {
+    background-image: url("resources/emptycart.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 200px;
+}
+
+.topic {
+    background-image: url("resorces/new-tech-store-logo.jpg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50px;
+}
+
+.emptylist {
+    background-image: url("resources/wishlist_aliexpress.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 200px;
+}
+
+.topic1 {
+    background-image: url("resources/dream\ sports\ \(3\).svg");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 50px;
+}
+
+.message_box,
+.chat_box {
+    height: 410px;
+    overflow-y: scroll;
+}
+
+.animate img {
+    width: 30px;
+    animation: bubble 10s linear infinite;
+}
+
+.animate {
+    margin-top: 100%;
+    padding-top: 15%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: -230px;
+}
+
+@keyframes bubble {
+    0% {
+        transform: translate(0px, 0px) rotate(0deg);
+    }
+
+    20% {
+        transform: translate(393px, -50px) rotate(36deg);
+    }
+
+    40% {
+        transform: translate(541px, -72px) rotate(72deg);
+    }
+
+    60% {
+        transform: translate(703px, 122px) rotate(108deg);
+    }
+
+    80% {
+        transform: translate(1240px, -172px) rotate(144deg);
+    }
+
+    100% {
+        transform: translate(0px, 0px) rotate(0deg);
+    }
+
+}
+
+.animate img:nth-child(1) {
+    animation-delay: 1s;
+    width: 25px;
+}
+
+.animate img:nth-child(2) {
+    animation-delay: 3s;
+    width: 30px;
+}
+
+.animate img:nth-child(3) {
+    animation-delay: 4.5s;
+    width: 40px;
+}
+.animate img:nth-child(4) {
+    animation-delay: 6s;
+    width: 25px;
+}
+
+.animate img:nth-child(5) {
+    animation-delay: 8.5s;
+    width: 30px;
+}
+
+.animate img:nth-child(6) {
+    animation-delay: 10s;
+    width: 40px;
+}
+.cccc{
+    background-image: url("resources/testimonial_shape-jim-fahad-digital.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black; 
+}
